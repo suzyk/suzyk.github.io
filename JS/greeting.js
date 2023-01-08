@@ -13,7 +13,7 @@ const LOAD_CLASSNAME = "load";
 const USERNAME_KEY = "username";
 
 function displayMainScreen(name){
-    greeting.innerHTML = `${timelyGreeting}, , <span id="editableText" contenteditable="false" onkeypress="return event.keyCode != 13;">${name}</span>`; // ~ button. (Backtick) Same thing as "Hello " + userName;
+    greeting.innerHTML = `${timelyGreeting}, <span id="editableText" contenteditable="false" onkeypress="return event.keyCode != 13;">${name}</span>`; // ~ button. (Backtick) Same thing as "Hello " + userName;
     //username_tag.innerText = `${name}`;
     mainScreen.classList.remove(FADEOUT_CLASSNAME);
     mainScreen.classList.add(VISIBLE_CLASSNAME);
