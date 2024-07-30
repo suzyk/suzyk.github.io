@@ -120,6 +120,31 @@ input, select, textarea {
 			color: #49bf9d !important;
 			text-decoration: none;
 		}
+		
+		.project-btns {
+			text-align: center;
+			margin-top: -20px;
+		}
+		.project-btns button{
+			position: center;
+			background-color: rgba(255, 255, 255, 0);
+			text-align: center;
+			font-size: 12px;
+			width: 50px;
+			height: 25px;
+			border: 3px solid #a5a5a5;;
+			color: #787878;
+			border-radius: 5px;
+			cursor: pointer;
+			-webkit-transition:background-color 0.2s ease-in-out;  
+			-moz-transition:background-color 0.2s ease-in-out;  
+			-o-transition:background-color 0.2s ease-in-out;  
+			transition:background-color 0.2s ease-in-out;
+		}
+		.project-btns button:hover{
+			background-color: #787878;;
+			color: white;
+		}
 
 	strong, b {
 		color: #787878;
